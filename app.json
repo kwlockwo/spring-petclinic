@@ -7,5 +7,14 @@
     "JAVA_OPTS": {
       "value": "-Dspring.profiles.active=postgresql"
     }
+  },
+  "environments": {
+    "test": {
+      "env": {
+        "JAVA_OPTS": {
+          "value": "-Dspring.profiles.active=postgresql"
+        }
+      }
+    }
   }
 }
